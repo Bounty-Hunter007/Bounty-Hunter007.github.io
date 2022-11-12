@@ -25,14 +25,13 @@ Current Major: Undergraduate in bachelors of Computer Science
 
 skills: javascript,wordpress,SEO & Customer service
 
-#
 
 
-ASSINGMENT:01
+# ASSINGMENT:01
 
 TRANSITIVE CLOSURE- Floyd Warshall
-# 
-What is transitive closure of a graph
+
+# What is transitive closure of a graph
 
 It is a matrix m in which
 m[i][j] is True if there j is reachable from i (can be a more than 1 edge path)
