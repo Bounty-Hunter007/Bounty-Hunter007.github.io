@@ -1,0 +1,42 @@
+body{
+
+    background: #B78628;
+    background: -moz-linear-gradient(left, #B78628 0%, #AC9650 46%, #181201 100%);
+    background: -webkit-linear-gradient(left, #B78628 0%, #AC9650 46%, #181201 100%);
+    background: linear-gradient(to right, #B78628 0%, #AC9650 46%, #181201 100%);
+}
+
+div {
+    text-align: center;
+    padding: 300px;
+}
+p{
+    font-size: 30px;
+}
+button {
+    padding: 7px 25px;
+    font-size: 20px;
+    text-align: center;
+    cursor: pointer;
+    outline: none;
+    color: rgba(10, 1, 1, 0.918);
+    background-color: #b382ac;
+    border: none;
+    border-radius: 30px;
+  }
+  
+  button:hover {
+    background-color: #3e8e41
+  }
+  
+  button:active {
+    background-color: #3e8e41;
+    box-shadow: 0 5px #666;
+    transform: translateY(4px);
+  }
+  @media screen and (max-width: 500px) {
+    button {
+      font-size: 18px;
+      padding: 10px 20px;
+    }
+  }
